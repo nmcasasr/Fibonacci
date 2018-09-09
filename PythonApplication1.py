@@ -23,8 +23,8 @@ while contador < int(n):
    
 print(lista1)
 plt.plot(lista1)
-plt.title("Título")   # Establece el título del gráfico
-plt.xlabel("abscisa")   # Establece el título del eje x 
-plt.ylabel("ordenada")   # Establece el título del eje y
+plt.title("Fibonacci")  
+plt.xlabel("iteracion")   
+plt.ylabel("tiempo")   
 
 plt.show()
