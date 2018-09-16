@@ -17,7 +17,9 @@ while contador < int(n):
     temp = y
     y = y+x
     x= temp
-    print(y)
+    if y < 0:
+     print(y)
+     break
     tiempo_final = time()
     lista1 = np.hstack((lista1,tiempo_final));
    
