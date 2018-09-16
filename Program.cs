@@ -24,7 +24,12 @@ namespace ConsoleApp2
                 tem = y;
                 y = y + x;
                 x = tem;
-                Console.WriteLine(y); 
+                if(y < 0)
+                {
+                Console.WriteLine(y);
+                    break;
+                }
+                
             }
         }
     }
