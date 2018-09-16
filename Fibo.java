@@ -29,7 +29,12 @@ int contador = 0;
     tem = y;
     y = y+x;
     x= tem;
-    System.out.println(y);
+          if(y < 0)
+          {
+              System.out.println(y);
+              break;
+          }
+  
         }
         
         
